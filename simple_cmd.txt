@@ -2,12 +2,13 @@ cd
 cd d:
 dir
 
+% steps to make a new txt folder and push to repo
 notepad name.txt
 git add name.txt
 git status
 git commit -m "input message"
 git push
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 checkout branch_name
 echo "#content">> file_name.txt
 git push --set-upstream origin branch_name
